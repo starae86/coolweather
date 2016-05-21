@@ -1,4 +1,4 @@
-package com.ae86.coolweather.model;
+package com.ae86.Coolweather.model;
 
 public class County {
 

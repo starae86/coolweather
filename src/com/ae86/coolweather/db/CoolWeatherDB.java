@@ -1,11 +1,11 @@
-package com.ae86.coolweather.db;
+package com.ae86.Coolweather.db;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ae86.coolweather.model.City;
-import com.ae86.coolweather.model.County;
-import com.ae86.coolweather.model.Province;
+import com.ae86.Coolweather.model.City;
+import com.ae86.Coolweather.model.County;
+import com.ae86.Coolweather.model.Province;
 
 
 
@@ -40,7 +40,7 @@ public class CoolWeatherDB {
 	}
 
 	/**
-	 * 获取CoolWeatherDB的实例。
+	 * 获取CoolWeatherDB的实例
 	 */
 	public synchronized static CoolWeatherDB getInstance(Context context) {
 		if (coolWeatherDB == null) {
@@ -50,7 +50,7 @@ public class CoolWeatherDB {
 	}
 
 	/**
-	 * 将Province实例存储到数据库。
+	 * 将Province实例存储到数据库
 	 */
 	public void saveProvince(Province province) {
 		if (province != null) {
@@ -83,7 +83,7 @@ public class CoolWeatherDB {
 	}
 
 	/**
-	 * 将City实例存储到数据库。
+	 * 将City实例存储到数据库
 	 */
 	public void saveCity(City city) {
 		if (city != null) {
